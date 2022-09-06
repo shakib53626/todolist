@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 20px 0;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: red !important;
+}
+.nav-link{
+    font-size: 18px;
+    color: blue !important;
+    transition: 0.5s;
+    text-align: center !important;
+}
+.nav-link:hover{
+    color: #fe5c24 !important;
+    transition:0.5s;
+}
+.active:focus{
+    color: #fe5c24 !important;
+}
+.pre-section{
+    background: linear-gradient(135deg, #1a0842, #09444e);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.preloader{
+    border:1px solid #2E94E3;
+    box-shadow: 0 0 30px #2E94E3;
+    padding: 30px;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.preloader input{
+    padding: 16px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+.incom-task{
+    margin: 32px 0;
+}
+.comp-task{
+    margin: 32px 0;
+}
+.task{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 15px;
+}
+.task i, .co-task i{
+    float: right;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.co-task{
+    background-color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.btn-11{
+	color: white;
+	font-size: 18px;
+	background: #F10086;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+	border-radius: 8px;
+    margin-top: 100px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-11:hover{
+	box-shadow: inset 120px 0 0 0 #0E3EDA;
+	transition: 0.4s;
+    color: white;
+}
+.modal-section{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    background: linear-gradient(135deg, #1a0842, #09444e);
+}
+
+
+@media screen and (max-width:991px) {
+    .preloader input{
+        width: 600px;
+    }
+}
+@media screen and (max-width:767px) {
+    .preloader input{
+        width: 400px;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:484px) {
+    .preloader input{
+        width: 350px;
+    }
+}
