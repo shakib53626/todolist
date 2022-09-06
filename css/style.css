@@ -124,3 +124,8 @@
         width: 350px;
     }
 }
+@media screen and (max-width:435px) {
+    .preloader input{
+        width: 300px;
+    }
+}
