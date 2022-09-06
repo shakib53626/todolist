@@ -104,6 +104,10 @@
     z-index: 9999;
     background: linear-gradient(135deg, #1a0842, #09444e);
 }
+iframe{
+    width: 800px;
+    height: 400px;
+}
 
 
 @media screen and (max-width:991px) {
@@ -118,14 +122,35 @@
     .navbar-brand{
         font-size: 24px;
     }
+    iframe{
+        width: 600px;
+        height: 305px;
+    }
 }
 @media screen and (max-width:484px) {
     .preloader input{
         width: 350px;
     }
+    iframe{
+        width: 450px;
+        height: 215px;
+    }
 }
 @media screen and (max-width:435px) {
     .preloader input{
         width: 300px;
+    }
+    iframe{
+        width: 350px;
+        height: 145px;
+    }
+}
+@media screen and (max-width:385px) {
+    .preloader input{
+        width: 200px;
+    }
+    iframe{
+        width: 250px;
+        height: 115px;
     }
 }
